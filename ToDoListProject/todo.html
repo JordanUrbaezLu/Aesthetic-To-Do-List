@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aesthetic Todo List</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./todo.css" />
+  </head>
+  <body>
+
+    <a class ="back" href = "../portfolio.html"><- BACK</a>
+
+    </div>
+    <header>
+      <h1>Aesthetic To-Do List</h1>
+    </header>
+    <div class ="button-container">
+      <button class ="button">Sort by Priority</button>
+    </div>
+    <form>
+      <input name ="input" placeholder ="Add To-Do Item..." type="text" class="todo-input" />
+      <div class="priority">
+        <select name="todos" class="priority-options">
+          <option value="high-priority">High Priority</option>
+          <option value="medium-priority">Medium Priority</option>
+          <option value="low-priority">Low Priority</option>
+        </select>
+      </div>
+      <button class="todo-button" type="submit">
+        <i class="fas fa-plus-square"></i>
+      </button>
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list"></ul>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>
